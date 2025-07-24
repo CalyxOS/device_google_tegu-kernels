@@ -1,0 +1,14 @@
+**/boot.img    filter=lfs diff=lfs merge=lfs -text
+**/dtbo.img    filter=lfs diff=lfs merge=lfs -text
+
+**/bcmdhd4383.ko    filter=lfs diff=lfs merge=lfs -text
+**/bluetooth.ko    filter=lfs diff=lfs merge=lfs -text
+**/cfg80211.ko    filter=lfs diff=lfs merge=lfs -text
+**/cmupmucal.ko    filter=lfs diff=lfs merge=lfs -text
+**/exynos-drm.ko    filter=lfs diff=lfs merge=lfs -text
+**/exynos_mfc.ko    filter=lfs diff=lfs merge=lfs -text
+**/fips140.ko    filter=lfs diff=lfs merge=lfs -text
+**/kheaders.ko    filter=lfs diff=lfs merge=lfs -text
+**/mac80211.ko    filter=lfs diff=lfs merge=lfs -text
+**/mali_kbase.ko    filter=lfs diff=lfs merge=lfs -text
+**/vh_sched.ko    filter=lfs diff=lfs merge=lfs -text
